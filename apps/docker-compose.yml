@@ -47,8 +47,8 @@ services:
       - DATABASE_DRIVER=oracle.jdbc.pool.OracleDataSource
       - DATABASE_TYPE=oracle
       - DATABASE_URL=thin:@oracledb:1521:xe
-      - DATABASE_USER=VAIE
-      - DATABASE_PASSWORD=bd123
+      - DATABASE_USER=yourUser
+      - DATABASE_PASSWORD=yourPassword
     depends_on:
       - oracledb
 
